@@ -58,7 +58,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video list preview" translatesAutoresizingMaskIntoConstraints="NO" id="X0S-XK-bzl">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video list preview 01" translatesAutoresizingMaskIntoConstraints="NO" id="X0S-XK-bzl">
                                                     <rect key="frame" x="16" y="16" width="110" height="72"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="X0S-XK-bzl" secondAttribute="height" multiplier="55:36" id="MyR-Dv-zlx"/>
@@ -470,7 +470,7 @@
         <!--已完成-->
         <scene sceneID="j2w-je-6Mp">
             <objects>
-                <tableViewController id="EsE-x0-dTz" customClass="DoneTableViewController" customModule="Whale" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="EsE-x0-dTz" customClass="DownloadedTableViewController" customModule="Whale" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="41E-Vr-VAD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1044,7 +1044,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fKP-Kg-FOX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2534" y="2122"/>
+            <point key="canvasLocation" x="2534" y="2184"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OXa-43-aEw">
@@ -1110,7 +1110,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gjm-v3-Sd5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1814" y="2122"/>
+            <point key="canvasLocation" x="1814" y="2184"/>
         </scene>
     </scenes>
     <resources>
@@ -1135,7 +1135,7 @@
         <image name="star" width="20" height="18"/>
         <image name="storage" width="20" height="20"/>
         <image name="terms" width="16" height="20"/>
-        <image name="video list preview" width="110" height="72"/>
+        <image name="video list preview 01" width="110" height="72"/>
         <image name="video list preview 02" width="110" height="72"/>
         <image name="video list preview 03" width="110" height="72"/>
         <image name="video list preview 04" width="110" height="72"/>
@@ -1145,38 +1145,11 @@
         <namedColor name="appBgColor">
             <color red="0.94509803921568625" green="0.94509803921568625" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="appBgColor">
-            <color red="0.94509803920000002" green="0.94509803920000002" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="mainBlackColor">
-            <color red="0.15686274510000001" green="0.13725490200000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="mainBlackColor">
-            <color red="0.15686274510000001" green="0.13725490200000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="mainBlackColor">
-            <color red="0.15686274510000001" green="0.13725490200000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="mainBlackColor">
-            <color red="0.15686274509803921" green="0.13725490196078433" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="mainBlackColor">
             <color red="0.15686274510000001" green="0.13725490200000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="mainColor">
             <color red="0.49803921568627452" green="0.59999999999999998" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="textGrayColor">
-            <color red="0.60392156860000001" green="0.58823529409999997" blue="0.6588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="textGrayColor">
-            <color red="0.60392156860000001" green="0.58823529409999997" blue="0.6588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="textGrayColor">
-            <color red="0.60392156862745094" green="0.58823529411764708" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="textGrayColor">
-            <color red="0.60392156860000001" green="0.58823529409999997" blue="0.6588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="textGrayColor">
             <color red="0.60392156860000001" green="0.58823529409999997" blue="0.6588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -1,5 +1,5 @@
 //
-//  DoneTableViewController.swift
+//  DownloadedTableViewController.swift
 //  Whale
 //
 //  Created by Allen on 2018/1/24.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DoneTableViewController: UITableViewController {
+class DownloadedTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

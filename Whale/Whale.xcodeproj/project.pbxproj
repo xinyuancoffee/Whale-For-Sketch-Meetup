@@ -13,7 +13,7 @@
 		9F39961F2016090500406AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F39961E2016090500406AA2 /* Assets.xcassets */; };
 		9F3996222016090500406AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3996202016090500406AA2 /* LaunchScreen.storyboard */; };
 		9F74059D201890AB0007E0EA /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74059C201890AB0007E0EA /* HomeTableViewController.swift */; };
-		9F74059F2018911E0007E0EA /* DoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74059E2018911E0007E0EA /* DoneTableViewController.swift */; };
+		9F74059F2018911E0007E0EA /* DownloadedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74059E2018911E0007E0EA /* DownloadedTableViewController.swift */; };
 		9F7405A12018950C0007E0EA /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7405A02018950C0007E0EA /* SettingTableViewController.swift */; };
 		9F7405A3201896380007E0EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7405A2201896380007E0EA /* MainViewController.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,7 @@
 		9F3996212016090500406AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F3996232016090500406AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F74059C201890AB0007E0EA /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
-		9F74059E2018911E0007E0EA /* DoneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTableViewController.swift; sourceTree = "<group>"; };
+		9F74059E2018911E0007E0EA /* DownloadedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadedTableViewController.swift; sourceTree = "<group>"; };
 		9F7405A02018950C0007E0EA /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		9F7405A2201896380007E0EA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,9 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				9F3996172016090500406AA2 /* AppDelegate.swift */,
-				9F74059C201890AB0007E0EA /* HomeTableViewController.swift */,
 				9F7405A2201896380007E0EA /* MainViewController.swift */,
-				9F74059E2018911E0007E0EA /* DoneTableViewController.swift */,
+				9F74059C201890AB0007E0EA /* HomeTableViewController.swift */,
+				9F74059E2018911E0007E0EA /* DownloadedTableViewController.swift */,
 				9F7405A02018950C0007E0EA /* SettingTableViewController.swift */,
 				9F39961B2016090500406AA2 /* Main.storyboard */,
 				9F39961E2016090500406AA2 /* Assets.xcassets */,
@@ -227,7 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F74059D201890AB0007E0EA /* HomeTableViewController.swift in Sources */,
-				9F74059F2018911E0007E0EA /* DoneTableViewController.swift in Sources */,
+				9F74059F2018911E0007E0EA /* DownloadedTableViewController.swift in Sources */,
 				9F7405A3201896380007E0EA /* MainViewController.swift in Sources */,
 				9F3996182016090500406AA2 /* AppDelegate.swift in Sources */,
 				9F7405A12018950C0007E0EA /* SettingTableViewController.swift in Sources */,
@@ -376,7 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fireball.Whale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -393,7 +393,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fireball.Whale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
