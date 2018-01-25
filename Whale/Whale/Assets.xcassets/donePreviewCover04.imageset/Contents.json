@@ -2,7 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "donePreviewCover04.pdf"
+      "filename" : "donePreviewCover04.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "donePreviewCover04@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "donePreviewCover04@3x.png",
+      "scale" : "3x"
     }
   ],
   "info" : {
