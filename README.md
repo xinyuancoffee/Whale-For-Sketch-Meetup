@@ -1,6 +1,6 @@
 # Whale-For-Sketch-Meetup
-A demo project prototyping in Xcode without single line code.
+Demo 项目，无需写一行代码即可实现  Xcode Interface Builder 原型制作。
 
-Sketch assets included.
+项目里包含 Sketch 源文件，和 Xcode project.
 
-Made for Sketch Meetup in Hangzhou, January 27.
+有任何问题可以加我微信 AppKitchen
